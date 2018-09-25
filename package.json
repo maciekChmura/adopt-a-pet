@@ -1,0 +1,27 @@
+{
+  "name": "adopt-a-pet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciekChmura/adopt-a-pet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciekChmura/adopt-a-pet/issues"
+  },
+  "homepage": "https://github.com/maciekChmura/adopt-a-pet#readme",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.3"
+  }
+}
