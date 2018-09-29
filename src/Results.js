@@ -12,6 +12,7 @@ class Results extends React.Component {
     super(props);
 
     this.state = {
+      loading: true,
       pets: []
     };
   }
@@ -35,11 +36,14 @@ class Results extends React.Component {
           pets = [];
         }
 
-        this.setState({ pets });
+        this.setState({ pets, loading: false });
       });
   }
 
   render() {
+    if (this.state.loading) {
+      return <h1>loading...</h1>;
+    }
     return (
       <div className="search">
         {this.state.pets.map(pet => {
