@@ -19,3 +19,9 @@ class App extends React.Component {
 }
 
 render(<App />, document.getElementById("root"));
+
+/*
+Router -> Details -> 
+:id is passed to Details as props -> this.props.id
+
+*/
