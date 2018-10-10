@@ -25,7 +25,7 @@ class Carousel extends React.Component {
       <div className="carousel">
         <img src={photos[active].value} alt="primary animal" />
         <div className="carousel-smaller">
-          {photos.map((photo, index /* implicit return with => ()  */) => (
+          {photos.map((photo, index /* implicit return with => () */) => (
             /* eslint-disable-next-line */
             <img
               onClick={this.handleIndexclick}
