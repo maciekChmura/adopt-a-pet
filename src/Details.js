@@ -12,7 +12,7 @@ const petfinder = pf({
 class Details extends React.Component {
   state = {
     loading: true,
-    showModal: true
+    showModal: false
   };
 
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
@@ -70,7 +70,7 @@ class Details extends React.Component {
           <p>{description}</p>
           {showModal ? (
             <Modal>
-              <h2>Would yu like to adopt {name}</h2>
+              <h2>Would you like to adopt {name}</h2>
               <div className="buttons">
                 <button onClick={this.toggleModal}>Yes</button>
                 <button onClick={this.toggleModal}>Definetly Yes</button>

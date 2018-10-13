@@ -70,7 +70,9 @@ class App extends React.Component {
     return (
       <div>
         <header>
-          <Link to="/">Adopt a pet!</Link>
+          <Link className="header" to="/">
+            TAKE ME HOME
+          </Link>
           <Link to="/search-params">
             <span aria-label="search" role="img">
               🔍
