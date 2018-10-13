@@ -1,1 +1,1 @@
-project to practice new things in React.
+Project to practice new things in React.
